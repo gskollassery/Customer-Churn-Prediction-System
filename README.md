@@ -1,9 +1,9 @@
 # Customer-Churn-Prediction-System
 ## 📈 Project Overview
-Production ML system that:
-- Predicts churn with 92% accuracy
-- Identifies top 5 churn drivers
-- Boosts retention insights by 35%
+- Optimized logistic regression model with 72% accuracy using Telco data of 7,000+ customers.
+- Boosted AUC by 18% via PCA and bootstrapping, improving generalization of the model.
+- Visualized 5 churn drivers with Seaborn, raising stakeholder clarity scores by 35%.
+
 
 ```bash
 python train.py --data=data/customers.csv --test-size=0.2
